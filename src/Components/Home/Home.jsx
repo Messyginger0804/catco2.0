@@ -6,7 +6,6 @@ import banner from '../../assets/catco-banner.jpg'
 import image from '../../assets/scratch-post.webp'
 
 
-
 const Home = () => {
     return (
         <div className='home'>
@@ -15,14 +14,14 @@ const Home = () => {
                 <div className="home-row">
                     <Product
                         id='5'
-                        title={'scratch post'}
+                        title={'MECOOL Cat Scratching Post Premium Basics Kitten Scratcher Sisal Scratch Posts with Hanging Ball 22in for Kittens or Smaller Cats (22 inches for Kitten, Beige) '}
                         price={29.99}
                         image={image}
                         rating={3}
                     />
                     <Product
                         id='5'
-                        title={'scratch post'}
+                        title={'MECOOL Cat Scratching Post Premium Basics Kitten Scratcher Sisal Scratch Posts with Hanging Ball 22in for Kittens or Smaller Cats (22 inches for Kitten, Beige)'}
                         price={29.99}
                         image={image}
                         rating={3} />
@@ -30,25 +29,25 @@ const Home = () => {
                 <div className="home-row">
                     <Product
                         id='5'
-                        title={'scratch post'}
+                        title={'MECOOL Cat Scratching Post Premium Basics Kitten Scratcher Sisal Scratch Posts with Hanging Ball 22in for Kittens or Smaller Cats (22 inches for Kitten, Beige)'}
                         price={29.99}
                         image={image}
                         rating={3} />
                     <Product
                         id='5'
-                        title={'scratch post'}
+                        title={'MECOOL Cat Scratching Post Premium Basics Kitten Scratcher Sisal Scratch Posts with Hanging Ball 22in for Kittens or Smaller Cats (22 inches for Kitten, Beige)'}
                         price={29.99}
                         image={image}
                         rating={3} />
                     <Product
                         id='5'
-                        title={'scratch post'}
+                        title={'MECOOL Cat Scratching Post Premium Basics Kitten Scratcher Sisal Scratch Posts with Hanging Ball 22in for Kittens or Smaller Cats (22 inches for Kitten, Beige)'}
                         price={29.99}
                         image={image}
                         rating={3} />
                     <Product
                         id='5'
-                        title={'scratch post'}
+                        title={'MECOOL Cat Scratching Post Premium Basics Kitten Scratcher Sisal Scratch Posts with Hanging Ball 22in for Kittens or Smaller Cats (22 inches for Kitten, Beige)'}
                         price={29.99}
                         image={image}
                         rating={3} />
@@ -56,13 +55,13 @@ const Home = () => {
                 <div className="home-row">
                     <Product
                         id='5'
-                        title={'scratch post'}
+                        title={'MECOOL Cat Scratching Post Premium Basics Kitten Scratcher Sisal Scratch Posts with Hanging Ball 22in for Kittens or Smaller Cats (22 inches for Kitten, Beige)'}
                         price={29.99}
                         image={image}
                         rating={3} />
                     <Product
                         id='5'
-                        title={'scratch post'}
+                        title={'MECOOL Cat Scratching Post Premium Basics Kitten Scratcher Sisal Scratch Posts with Hanging Ball 22in for Kittens or Smaller Cats (22 inches for Kitten, Beige)'}
                         price={29.99}
                         image={image}
                         rating={3} />
