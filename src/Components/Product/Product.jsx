@@ -39,7 +39,7 @@ const Product = ({ id, title, image, price, rating }) => {
 
                 <div className="product-rating">
                     {Array(rating).fill().map((_, i) => (
-                        <p><AiFillStar className='rating-starts' /></p>
+                        <p><AiFillStar className='rating-stars' /></p>
 
                     ))}
 

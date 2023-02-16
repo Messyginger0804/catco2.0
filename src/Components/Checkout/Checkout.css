@@ -1,5 +1,7 @@
 .checkout {
     display: flex;
+    justify-content: space-around;
+    gap: .5%;
     padding: 20px;
     background-color: white;
     height: max-content;
@@ -8,11 +10,14 @@
 .checkout-banner {
     width: 100%;
     height: auto;
+    object-fit: contain;
     margin-bottom: 2%;
 }
 
 .checkout-title {
     margin-right: 10px;
+    text-align: center;
+    text-transform: uppercase;
     padding: 10px;
     border-bottom: 1px solid lightgrey;
 }
