@@ -57,11 +57,11 @@ function Header() {
                     </Link>
                     <span className='header-optionLine2 header-cartCount'>{cart?.length}</span>
 
-                </div>
+                </div >
 
 
-            </div>
-        </div>
+            </div >
+        </div >
     )
 }
 
