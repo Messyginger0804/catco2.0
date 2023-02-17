@@ -8,13 +8,14 @@ import './Checkout.css'
 const banner = 'https://www.petlandiowacity.com/wp-content/uploads/2022/06/kittensuphero.jpg'
 
 const Checkout = () => {
-    const [{ cart }] = useStateValue();
+    const [{ cart, user }] = useStateValue();
 
 
     return (
         <div className="checkout">
             <div className="checkout-left">
                 <img className='checkout-banner' src={banner} alt="checkout banner" />
+                <h3>hello, {user?.email}</h3>
                 <h2 className='checkout-title'>
                     your shopping cart has ({cart.length} items)
                 </h2>
