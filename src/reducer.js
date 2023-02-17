@@ -1,5 +1,6 @@
 export const initialState = {
     cart: [],
+    user: null
 };
 
 // the selctor
@@ -44,7 +45,14 @@ const reducer = (state, action) => {
             }
 
             return {
-                ...state, cart: newCart
+                ...state,
+                cart: newCart
+            }
+
+        case 'SET_USER':
+            return {
+                ...state,
+                user: action.user
             }
 
 

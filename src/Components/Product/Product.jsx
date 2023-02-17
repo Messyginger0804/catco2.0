@@ -9,7 +9,7 @@ const Product = ({ id, title, image, price, rating }) => {
 
     const [{ cart }, setCart] = useStateValue();
 
-    console.log('this should be my cart-----', cart)
+    // console.log('this should be my cart-----', cart)
 
 
     const addToCart = () => {

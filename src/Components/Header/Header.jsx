@@ -4,11 +4,19 @@ import logo from '../../assets/catco-logo.jpg'
 import { AiOutlineFileSearch, AiOutlineShoppingCart } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
 import { useStateValue } from '../../StateManage';
+// import { auth } from '../../firebase';
+import { signOut } from '@firebase/auth';
+import { auth } from '../../firebase';
 
 
 function Header() {
+    const [{ cart, user }, setCart] = useStateValue();
 
-    const [{ cart }, setCart] = useStateValue();
+    const handleAuth = () => {
+        if (user) {
+            signOut(auth);
+        }
+    }
 
     return (
         <div className='header'>
@@ -23,12 +31,10 @@ function Header() {
 
             <div className="header-nav">
                 <Link to='/login'>
-                    <div className="header-option">
-                        <span className='header-optionLine1'>
-                            welcome guest
+                    <div onClick={handleAuth} className="header-option">
+                        <span className='header-optionLine1'>{user ? 'welcome back' : 'welcome guest'}
                         </span>
-                        <span className='header-optionLine2'>
-                            sign in
+                        <span className='header-optionLine2'>{user ? 'sign out' : 'sign in'}
                         </span>
                     </div>
                 </Link>
